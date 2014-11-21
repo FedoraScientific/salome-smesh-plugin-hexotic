@@ -32,9 +32,9 @@ SET(SalomeIDLHexoticPLUGIN_IDLSOURCES
 )
 
 SET(_idl_include_dirs
-  ${KERNEL_ROOT_DIR}/idl/salome
-  ${GEOM_ROOT_DIR}/idl/salome
-  ${SMESH_ROOT_DIR}/idl/salome
+  ${KERNEL_ROOT_DIR}/${SALOME_INSTALL_IDLS}
+  ${GEOM_ROOT_DIR}/${SALOME_INSTALL_IDLS}
+  ${SMESH_ROOT_DIR}/${SALOME_INSTALL_IDLS}
 )
 
 SET(_idl_link_flags
