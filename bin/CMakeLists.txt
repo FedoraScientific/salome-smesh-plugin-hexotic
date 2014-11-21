@@ -17,4 +17,4 @@
 # See http://www.salome-platform.org/ or email : webmaster.salome@opencascade.com
 #
 
-SALOME_CONFIGURE_FILE(VERSION.in VERSION INSTALL ${SALOME_INSTALL_BINS})
+SALOME_CONFIGURE_FILE(VERSION.in VERSION.hexoticplugin INSTALL ${SALOME_INSTALL_BINS})
